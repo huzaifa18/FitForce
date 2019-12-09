@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#182C8F</color>
+    <color name="colorPrimaryDark">#2440cc</color>
+    <color name="colorPrimary1">#74AAFF</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
+    <color name="colorAccent">#7C4DFF</color>
+    <color name="btnSignUp">#FFFFFF</color>
+    <color name="hintC">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#2DFF00</color>
+
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+
+</resources>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".WeekDays">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/select_workout_day"
+        android:textColor="@color/colorPrimary"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/sv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:paddingBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_monday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="8dp">
+
+                <TextView
+                    android:id="@+id/tv_monday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/plain_bg"
+                    android:drawableRight="@drawable/ic_expand_more_black_24dp"
+                    android:elevation="8dp"
+                    android:padding="10dp"
+                    android:text="@string/monday"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="24dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/el_monday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="8dp"
+                app:el_expanded="false">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_monday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </net.cachapa.expandablelayout.ExpandableLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="8dp">
+
+                <TextView
+                    android:id="@+id/tv_tuesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/plain_bg"
+                    android:drawableRight="@drawable/ic_expand_more_black_24dp"
+                    android:elevation="8dp"
+                    android:padding="10dp"
+                    android:text="@string/tuesday"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="24dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/el_tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="8dp"
+                app:el_expanded="false">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_tuesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </net.cachapa.expandablelayout.ExpandableLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="8dp">
+
+                <TextView
+                    android:id="@+id/tv_wednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/plain_bg"
+                    android:drawableRight="@drawable/ic_expand_more_black_24dp"
+                    android:elevation="8dp"
+                    android:padding="10dp"
+                    android:text="@string/wednesday"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="24dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/el_wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="8dp"
+                app:el_expanded="false">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_wednesday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </net.cachapa.expandablelayout.ExpandableLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_thursday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="8dp">
+
+                <TextView
+                    android:id="@+id/tv_thrusday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/plain_bg"
+                    android:drawableRight="@drawable/ic_expand_more_black_24dp"
+                    android:elevation="8dp"
+                    android:padding="10dp"
+                    android:text="@string/thursday"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="24dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/el_thursday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="8dp"
+                app:el_expanded="false">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_thursday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </net.cachapa.expandablelayout.ExpandableLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_friday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="8dp">
+
+                <TextView
+                    android:id="@+id/tv_friday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/plain_bg"
+                    android:drawableRight="@drawable/ic_expand_more_black_24dp"
+                    android:elevation="8dp"
+                    android:padding="10dp"
+                    android:text="@string/friday"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="24dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/el_friday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="8dp"
+                app:el_expanded="false">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_friday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </net.cachapa.expandablelayout.ExpandableLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_saturday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="8dp">
+
+                <TextView
+                    android:id="@+id/tv_saturday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/plain_bg"
+                    android:drawableRight="@drawable/ic_expand_more_black_24dp"
+                    android:elevation="8dp"
+                    android:padding="10dp"
+                    android:text="@string/saturday"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="24dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/el_saturday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="8dp"
+                app:el_expanded="false">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_saturday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </net.cachapa.expandablelayout.ExpandableLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_sunday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="8dp">
+
+                <TextView
+                    android:id="@+id/tv_sunday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/plain_bg"
+                    android:drawableRight="@drawable/ic_expand_more_black_24dp"
+                    android:elevation="8dp"
+                    android:padding="10dp"
+                    android:text="@string/sunday"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textSize="24dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/el_sunday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="8dp"
+                app:el_expanded="false">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_sunday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </net.cachapa.expandablelayout.ExpandableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_home_white"/>
+
+        <item android:title=""/>
+
+        <item
+            android:id="@+id/profile"
+            android:title="My Profile"
+            android:icon="@drawable/ic_person_white"/>
+
+        <item android:title=""/>
+
+        <item
+            android:id="@+id/store"
+            android:title="Supplement Store"
+            android:icon="@drawable/ic_store_white"/>
+
+        <item
+            android:id="@+id/workout"
+            android:title="My Workout"
+            android:visible="false"
+            android:icon="@drawable/ic_home_white"/>
+
+        <item android:title=""/>
+
+        <item
+            android:id="@+id/bmr"
+            android:title="BMR Calculator"
+            android:icon="@drawable/ic_bmr_cal_white"/>
+
+        <!--<item
+            android:id="@+id/notifications"
+            android:title="Notifications" />-->
+
+        <!--<item
+            android:id="@+id/settings"
+            android:title="Settings" />-->
+
+
+        <item android:title=""/>
+
+        <item
+            android:id="@+id/log_out"
+            android:title="Log Out"
+            android:icon="@drawable/ic_exit_white" />
+
+        <item android:title=""/>
+
+        <item
+            android:id="@+id/feedback"
+            android:title="Send FeedBack"
+            android:icon="@drawable/ic_feedback_white" />
+
+    </group>
+
+</menu>

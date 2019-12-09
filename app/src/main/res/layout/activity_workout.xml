@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoalActivity"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-smallcaps"
+        style="bold|italic"
+        android:text="Build Muscle"
+        android:layout_margin="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/abs_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abs"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/abs_iv"
+                android:layout_alignTop="@id/abs_iv"
+                android:layout_alignRight="@id/abs_iv"
+                android:layout_alignBottom="@id/abs_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/back_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/back_iv"
+                android:layout_alignTop="@id/back_iv"
+                android:layout_alignRight="@id/back_iv"
+                android:layout_alignBottom="@id/back_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/bicep_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bicep"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/bicep_iv"
+                android:layout_alignTop="@id/bicep_iv"
+                android:layout_alignRight="@id/bicep_iv"
+                android:layout_alignBottom="@id/bicep_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/chest_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chest"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/chest_iv"
+                android:layout_alignTop="@id/chest_iv"
+                android:layout_alignRight="@id/chest_iv"
+                android:layout_alignBottom="@id/chest_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/legs_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Legs"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/legs_iv"
+                android:layout_alignTop="@id/legs_iv"
+                android:layout_alignRight="@id/legs_iv"
+                android:layout_alignBottom="@id/legs_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/shoulder_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shoulder"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/shoulder_iv"
+                android:layout_alignTop="@id/shoulder_iv"
+                android:layout_alignRight="@id/shoulder_iv"
+                android:layout_alignBottom="@id/shoulder_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/tricep_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tricep"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/tricep_iv"
+                android:layout_alignTop="@id/tricep_iv"
+                android:layout_alignRight="@id/tricep_iv"
+                android:layout_alignBottom="@id/tricep_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

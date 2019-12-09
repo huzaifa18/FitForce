@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "49765238737",
+    "firebase_url": "https://fit-force-78125.firebaseio.com",
+    "project_id": "fit-force-78125",
+    "storage_bucket": "fit-force-78125.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49765238737:android:25cc888699b64a9b",
+        "android_client_info": {
+          "package_name": "com.example.abc.fitforce1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49765238737-u523uobs5ljspmsofane27i6r2f066qj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abc.fitforce1",
+            "certificate_hash": "e28a7b8f1613b8972205fe0de1163d1380657342"
+          }
+        },
+        {
+          "client_id": "49765238737-ce1u89pmmgg43qsfu68fjao6tbedddil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abc.fitforce1",
+            "certificate_hash": "d26c732261a27cc9afe12d3af0ebfd2a030fc535"
+          }
+        },
+        {
+          "client_id": "49765238737-8o9offig7akbofthd57448epoik7t5mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnkSBWb2BNG3FqtkNtk5scjktL6rpV2tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49765238737-8o9offig7akbofthd57448epoik7t5mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

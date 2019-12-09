@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoalActivity"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-smallcaps"
+        style="bold|italic"
+        android:text="What's your goal?"
+        android:layout_margin="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/build_muscle_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_build_muscle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Build Muscle"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/build_muscle_iv"
+                android:layout_alignTop="@id/build_muscle_iv"
+                android:layout_alignRight="@id/build_muscle_iv"
+                android:layout_alignBottom="@id/build_muscle_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/fitness_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_maintain_fitness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maintain Fitness"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/fitness_iv"
+                android:layout_alignTop="@id/fitness_iv"
+                android:layout_alignRight="@id/fitness_iv"
+                android:layout_alignBottom="@id/fitness_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/loose_weight_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lose Weight"/>
+
+            <TextView
+                android:id="@+id/tv_loose_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lose Weight"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/loose_weight_iv"
+                android:layout_alignTop="@id/loose_weight_iv"
+                android:layout_alignRight="@id/loose_weight_iv"
+                android:layout_alignBottom="@id/loose_weight_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/gain_strength_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_gain_strength"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gain Strength"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/gain_strength_iv"
+                android:layout_alignTop="@id/gain_strength_iv"
+                android:layout_alignRight="@id/gain_strength_iv"
+                android:layout_alignBottom="@id/gain_strength_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/shredded_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_shredded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shredded"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/shredded_iv"
+                android:layout_alignTop="@id/shredded_iv"
+                android:layout_alignRight="@id/shredded_iv"
+                android:layout_alignBottom="@id/shredded_iv"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
